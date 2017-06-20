@@ -1,9 +1,11 @@
+@import url('http://fonts.googleapis.com/css?family=Lalezar');
 * { 
 	padding: 0;
 	margin: 0; 
+	box-sizing:border-box;
 }
 
-@import url('http://fonts.googleapis.com/css?family=Lalezar');
+
 
 body
 	{
