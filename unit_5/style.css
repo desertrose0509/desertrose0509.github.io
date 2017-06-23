@@ -1,0 +1,66 @@
+@import url('http://fonts.googleapis.com/css?family=Lalezar');
+* { 
+	padding: 0;
+	margin: 0; 
+	box-sizing:border-box;
+}
+
+#wrapper {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+	body
+		{
+		font-family: Palatino, Arial, sans-serif;
+		font-size: 20px;
+		color: #222222;
+		line-height: 1.3;
+		}
+
+		header {
+			background-color: #FFED74;
+			padding: 20px;
+			border: 1px black solid;}
+
+		nav a { 
+			background-color: #E8C66A;
+			color: #cccccc:
+			margin-right: 10px;
+			padding: 5px; 
+			border: 1px black solid;}		
+
+		
+		#one{
+			background-color: #FFE2B8;
+			padding: 20px;
+			border: 1px black solid;}
+		
+		#about{
+			background-color: #FFE2B8;
+			padding: 20px;
+			border: 1px black solid;}
+
+		
+		#cases{
+			background-color: #FFE2B8;
+			padding: 20px;
+			border: 1px black solid;}
+
+
+		
+
+
+		h1, h2, h3 {
+			font-family: 'Lalezar', sans-serif;}	
+
+		p {
+			font-family: Palatino, Arial, sans-serif;}
+
+		img {width: 100%;}
+
+		footer {
+			background-color: #FF957E;
+			padding: 20px;
+			border: 1px black solid;}
+		</body>
