@@ -4,13 +4,7 @@
 	margin: 0; 
 	box-sizing:border-box;
 }
-
-#wrapper {
-	width: 1080px;
-	margin: 0 auto;
-}
-
-	body
+body
 		{
 		font-family: Palatino, Arial, sans-serif;
 		font-size: 20px;
@@ -63,4 +57,22 @@
 			background-color: #FF957E;
 			padding: 20px;
 			border: 1px black solid;}
-		</body>
+		#intro {
+    overflow:hidden;
+}
+#intro div {
+    background: url(images/web_designer.jpg);
+    height: 22em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#intro > * {
+    width: 50%;
+    float: left;
+    padding: 4em 4em 0;
+}
+#one {
+    width: 600px;
+    margin: auto;
+    padding: 4em;
+}
