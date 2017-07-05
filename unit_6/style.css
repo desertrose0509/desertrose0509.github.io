@@ -1,32 +1,31 @@
-@import url('http://fonts.googleapis.com/css?family=Lalezar');
+@import url('https://fonts.googleapis.com/css?family=Lalezar');
 * { 
 	padding: 0;
 	margin: 0; 
 	box-sizing:border-box;
 }
-body
-		{
-		font-family: Arial, sans-serif;
-		font-size: 20px;
-		color: #222222;
-		line-height: 1.5em;
-		margin: 3em;}
-		
-
-		header {
-			background-color: #FFED74;
-			padding: 20px;
-			border: 1px black solid;}
-
-		nav {background-color: #E8C66A;}
-			
-
-		nav a { 
-			text-decoration: none;
-			color: #cccccc:
-			margin-right: 10px;
-			padding: 5px; 
-			border: 1px black solid;}		
+body {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: #222222;
+	line-height: 1.5;
+}
+section {
+	padding:4em 0;
+}
+header {
+	background-color: #FFED74;
+	padding: 20px;
+	border: 1px black solid;
+}
+nav {background-color: #E8C66A;}
+nav a { 
+	text-decoration: none;
+	color: #cccccc:
+	margin-right: 10px;
+	padding: 5px; 
+	border: 1px black solid;
+}		
 
 		nav a:hover{
 			color: red;}
@@ -42,25 +41,16 @@ body
 			border: 1px black solid;
 			overflow:hidden}
 
-		#left{
-			background-color: #E582A2;
-			padding: 20px;
-			border: 1px black solid;
-			float: left;
-			width: 30%;}
-		
-		#right{
-			background-color: #E55B88;
-			padding: 20px;
-			border: 1px black solid;
-			float: right;
-			width: 62%;}
+
 			
 		
 		#about{
-			background-color: #FFE2B8;
-			padding: 20px;
-			border: 1px black solid;}
+			/* background-color: #FFE2B8; */
+			/* padding: 20px; */
+			/* border: 1px black solid; */
+			width: 1200px;
+			margin: auto;
+			}
 
 		
 		#cases{
@@ -80,15 +70,17 @@ body
 
 
 		h1, h2, h3 {
-			font-family: 'Lalezar', sans-serif;
-			font-weight: 800;}
+			font-family: 'Lalezar', san-serif;
+			font-weight: 800;
+		}
 		
 
 		p {
-			font-family: Arial, sans-serif;}
+			margin-top: 1em;
+			}
 		
 
-		img {width: 100%;}
+		#intro img {width: 100%;}
 
 		footer {
 			background-color: #FF957E;
@@ -109,21 +101,8 @@ body
 	    float: left;
 	    padding: 2em 1em 0;
 	}
-	#about div {
-	    background: url(images/sally_davies.jpg);
-	    height: 22em;
-	    background-repeat: no-repeat;
-	    background-size: cover;
-		width: 100%;}
-	 
-	#aside {
-	    width: 50%;
-	    float: left;
-	    padding: 2em 1em 0;
-	}
-
-	#article{
-	    width: 50%;
-	    float: right;
-	    padding: 2em 1em 0;
+	.aboutColumn {
+		width: 50%;
+		float: left;
+		padding: 2em;
 	}
