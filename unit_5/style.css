@@ -49,7 +49,8 @@ body
 			font-family: 'Lalezar', sans-serif;}	
 
 		p {
-			font-family: Palatino, Arial, sans-serif;}
+			font-family: Palatino, Arial, sans-serif;
+		}
 
 		img {width: 100%;}
 
@@ -57,22 +58,22 @@ body
 			background-color: #FF957E;
 			padding: 20px;
 			border: 1px black solid;}
-		#intro {
-    overflow:hidden;
-}
-#intro div {
-    background: url(images/web_designer.jpg);
-    height: 22em;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#intro > * {
-    width: 50%;
-    float: left;
-    padding: 4em 4em 0;
-}
-#one {
-    width: 600px;
-    margin: auto;
-    padding: 4em;
-}
+	#intro {
+	    overflow:hidden;
+	}
+	#intro div {
+	    background: url(images/web_designer.jpg);
+	    height: 22em;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+	#intro > * {
+	    width: 50%;
+	    float: left;
+	    padding: 4em 4em 0;
+	}
+	#one {
+	    width: 600px;
+	    margin: auto;
+	    padding: 4em;
+	}
